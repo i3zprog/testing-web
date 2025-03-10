@@ -47,7 +47,8 @@
         <label for="email">البريد الالكتروني</label>
         <input type="email" id="email" name="email" placeholder="ادخل البريد الالكتروني">
         <br>
-        <!--max تعني الحد الاعلى للرقم min الحد الادنى للرقم-->
+
+        <!--max تعني الحد الاعلى للعمر max الحد الادنى للعمر-->
         <label for="age">العمر</label>
         <input type="number" id="age" name="age" max="30" min="18">
         <br>
@@ -84,6 +85,70 @@
         <input type="checkbox" name="interest" id="int3" value="sports">
         <label for="int3">الرياضة</label><br>
 
+          <a href="#الاهتمامات"id=></a>
+    <form method="get">
+    <label for="username">اسم المستخدم</label>
+    <input type="text" name="name" id="username" placeholder="اسم المستخدم"><Br></Br>
+<hr>
+<!-- pattern تعني نوع المدخل سواء كان احرف او ارقام او رموز هنا المراد ارقام من 0 الى 9 والحد للارقام 10 ما يزيد عن ذلك لا يمكن ارسالة -->
+    <label for="password">كلمة المرور</label>
+    <input type="password" name="pass" id="password" required placeholder="كلمة المرور" pattern=[0-9]{10}><br><br>
+<hr>
+    <label for="email">البريد الالكتروني</label>
+    <input type="email" name="mail" id="email" required placeholder="ادخل الايميل"><br><br>
+<hr>
+    <label for="gend">الجنس:</label>
+    
+    <label for="male">ذكر</label>
+    <input type="radio" name="geen" id="male" value="male">
+
+    <label for="female">انثى</label>
+    <input type="radio" name="geen" id="female" value="female">
+</form>
+
+<section id="intrests"></section>
+<table>
+    <th>
+        <P>الاهتمامات</P><br>
+    </th>
+    <td>
+ 
+<br>
+    <label for="intrests1">حاسب الي</label>
+    <input type="checkbox" name="intrests" id="intrests1" value="programming">
+
+<br>
+<label for="intrests2">ادارة مشاريع</label>
+    <input type="checkbox" name="intrests" id="intrests2" value="pm">
+<br>
+    <label for="intrests3">هندسة برمجيات</label>
+    <input type="checkbox" name="intrests" id="intrests3" value="SE">
+
+    </td>
+</table>
+    <a href="../images/3.png">tut5</a>
+    <br>
+    <label for="subject">نوع الاستفسار</label>
+    <select name="subject" id="subject">
+        
+        
+        
+        <option value="استفسار">استفسار</option>
+
+       
+        
+        <option value="مشكلة">مشلكة</option>
+        <option value="طلب شراكة">طلب شراكة</option>
+        <option value="عام">طلب عام</option>
+    </select><br>
+
+<!-- cols هو عرض بوكس الرسالة rows هو طول بوكس الرسالة required يعني مطلوب ادخل اي شي داخل العنصر -->
+<!-- maxlength الحد الاعلى للحروف المدخله minlength الحد الادنى للحروف المدخلة -->
+    <a href="../images/تنزيل (5).png">tut6</a><br>
+    <!--pattren requitre placeholder ذا شرح لهم tut 7 -->
+    <a href="../images/تنزيل (7).png">tut7</a>
+    <label for="massage"></label>
+    <textarea name="massage" id="massage" cols="30" rows="5" required placeholder="اكتب رسالتك هنا " maxlength="34" minlength="10"></textarea>
 
 
         <input type="submit" value="ارسال">
