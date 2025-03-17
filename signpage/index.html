@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signpage</title>
+</head>
+<body>
+    
+    <form action="sign.php" method="get">
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" placeholder="username" required pattern="[a-zA-Z]{3,10}" maxlength="10">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="password" required pattern="[a-zA-Z0-9]{6,10}" maxlength="10">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        <br>
+        <label for="age">Birthday</label>
+        <input type="date" name="age" id="age" required max="2020-01-01" min="1970-01-01">
+        <br><hr>
+        <label for="gender"> <strong>gender:</strong> </label>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male" required >
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female" required>
+        <br>
+
+        <label for="country">country</label>
+        <select name="country" id="country" required>
+            <option value="saudi arabia">saudi arabia</option>
+            <option value="egypt">egypt</option>
+            <option value="usa">usa</option>
+            <option value="uk">uk</option>
+        </select>
+        <br>
+        <label for="phone">phone</label>
+        <input type="tel" name="phone" id="phone" placeholder="phone number" pattern="[0-9]{10}" maxlength="10" required  >
+        <br>
+        <label for="address">address</label>
+        <textarea name="address" id="address" cols="17" rows="7"  required placeholder="enter your address" maxlength="30"></textarea>
+        <br><hr>
+        <label for="agree">Accept  <a href="https://github.com/i3zprog">terms and conditions</a></label>
+        <input type="checkbox" name="agree" id="agree" required><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+
+    </form>
+
+    
+</body>
+</html>
+
+
