@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>signpage</title>
+
+        <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>enter your information</h1>
+    <hr>
     <form action="sign.php" method="get">
         <label for="username">username</label>
         <input type="text" name="username" id="username" placeholder="username" required pattern="[a-zA-Z]{3,10}" maxlength="10">
@@ -41,15 +43,16 @@
         <label for="address">address</label>
         <textarea name="address" id="address" cols="17" rows="7"  required placeholder="enter your address" maxlength="30"></textarea>
         <br><hr>
-        <label for="agree">Accept  <a href="https://github.com/i3zprog">terms and conditions</a></label>
+        <label for="agree">Accept  <strong>  <a href="https://github.com/i3zprog">terms and conditions</a></strong></label>
         <input type="checkbox" name="agree" id="agree" required><br><br>
         <input type="submit" value="submit">
         <input type="reset" value="reset">
 
     </form>
 
-    
+    <footer>
+        <br><br><br><br>
+       <p>programmed by <a href="https://github.com/i3zprog">i3zprog</a></p> 
+    </footer>
 </body>
 </html>
-
-
