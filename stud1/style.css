@@ -1,0 +1,59 @@
+/*تغيير لون الخلفية */
+body{
+    /*وضع صورة كخلفية */
+    background-image: url(eid.png);
+    /*no repeat تمنع تكرار الصوره */
+    background-repeat: no-repeat;
+    font-family: monospace, serif;
+ 
+}
+/*تغيير جميع انواع الh1*/
+h1{
+    text-align: center;
+    
+}
+
+/*تغيير لون او شكل الخط ل id معين */
+#main{
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*تغيير لون او شكل الخط ل id معين */
+
+#itis{
+    background-color: rgb(255, 255, 255);
+}
+/*تغيير لون او شكل الخط ل id معين */
+
+#itsnot{
+    background-color: red;
+    color: color-mix(in oklab, color percentage, color percentage);
+}
+/*تغيير لون او شكل الخط ل class معين */
+/*لتغيير كلاس معين نستخدم . قبل اي كلاس */
+/*لتغيير اي دي معين نستخدم # قبل الاي دي*/
+.boxes{
+    background-color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+}
+
+h3{
+    color: blanchedalmond;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*https://colorsafe.co/*/
+/*موقع لجميع الالوان*/
+p{
+    color: brown;
+    font-weight: lighter;
+    font-weight: bolder;
+
+}
+
+/* https://webaim.org/services/training/ */
+/*موقع لتنسيق الالونا مع الباك قراوند ولون الخط*/
